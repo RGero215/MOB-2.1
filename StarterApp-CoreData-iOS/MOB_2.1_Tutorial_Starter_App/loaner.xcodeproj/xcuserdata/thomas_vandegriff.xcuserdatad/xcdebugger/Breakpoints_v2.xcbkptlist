@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ViewController.swift"
+            timestampString = "574457616.437147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ViewController.swift"
+            timestampString = "574457616.437662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemContactInfoViewController.swift"
+            timestampString = "574378086.681649"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "ItemContactInfoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loaner.ItemContactInfoViewController.buttonAddContact.getter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "loaner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas_vandegriff/Documents/VanderVision%20Digital,%20Inc.%20(formerly%20McGuffinDigital)/Client%20Projects/Training%20Projects/Make%20School%20(started%20JAN%202019)/Curriculum%20Development%20Work/Term%204%20(starting%20APR%201,%202019)/Tutorials/CoreData%20Tutorial/Starter%20App/Master%20copy%20TWO%20of%20Loaner%20Starter%20App%20(refactored%20on%2003-13-19)/loaner/controllers/ItemContactInfoViewController.swift"
+                  timestampString = "574215768.656087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loaner.ItemContactInfoViewController.buttonAddContact.setter : weak Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "loaner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas_vandegriff/Documents/VanderVision%20Digital,%20Inc.%20(formerly%20McGuffinDigital)/Client%20Projects/Training%20Projects/Make%20School%20(started%20JAN%202019)/Curriculum%20Development%20Work/Term%204%20(starting%20APR%201,%202019)/Tutorials/CoreData%20Tutorial/Starter%20App/Master%20copy%20TWO%20of%20Loaner%20Starter%20App%20(refactored%20on%2003-13-19)/loaner/controllers/ItemContactInfoViewController.swift"
+                  timestampString = "574215768.657568"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loaner.ItemContactInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; loaner.ItemContactInfoViewController"
+                  moduleName = "loaner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas_vandegriff/Documents/VanderVision%20Digital,%20Inc.%20(formerly%20McGuffinDigital)/Client%20Projects/Training%20Projects/Make%20School%20(started%20JAN%202019)/Curriculum%20Development%20Work/Term%204%20(starting%20APR%201,%202019)/Tutorials/CoreData%20Tutorial/Starter%20App/Master%20copy%20TWO%20of%20Loaner%20Starter%20App%20(refactored%20on%2003-13-19)/loaner/controllers/ItemContactInfoViewController.swift"
+                  timestampString = "574215768.659104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "619">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "loaner.ItemContactInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;loaner.ItemContactInfoViewController&gt;"
+                  moduleName = "loaner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas_vandegriff/Documents/VanderVision%20Digital,%20Inc.%20(formerly%20McGuffinDigital)/Client%20Projects/Training%20Projects/Make%20School%20(started%20JAN%202019)/Curriculum%20Development%20Work/Term%204%20(starting%20APR%201,%202019)/Tutorials/CoreData%20Tutorial/Starter%20App/Master%20copy%20TWO%20of%20Loaner%20Starter%20App%20(refactored%20on%2003-13-19)/loaner/controllers/ItemContactInfoViewController.swift"
+                  timestampString = "574215768.660663"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "583">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemEditorViewController.swift"
+            timestampString = "574130406.151644"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "pressContactInfo(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemContactInfoViewController.swift"
+            timestampString = "574378086.6820951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "pressSave(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemContactInfoViewController.swift"
+            timestampString = "574378086.682341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "pressSave(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemContactInfoViewController.swift"
+            timestampString = "574378086.6825629"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "pressSave(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemContactInfoViewController.swift"
+            timestampString = "574378086.682777"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "pressSave(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "loaner/controllers/ItemEditorViewController.swift"
+            timestampString = "574130406.1522191"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
