@@ -16,6 +16,8 @@
 		87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE273227F2A5F00F53688 /* AddTripControllers.swift */; };
 		87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */; };
 		87ABE278227F458400F53688 /* AddWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE277227F458400F53688 /* AddWaypoint.swift */; };
+		87ABE27B227F6A8600F53688 /* PlannedTrips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE279227F6A8600F53688 /* PlannedTrips.xcdatamodeld */; };
+		87ABE27D227F6B5500F53688 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27C227F6B5500F53688 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		87ABE273227F2A5F00F53688 /* AddTripControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripControllers.swift; sourceTree = "<group>"; };
 		87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWaypointsControllers.swift; sourceTree = "<group>"; };
 		87ABE277227F458400F53688 /* AddWaypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaypoint.swift; sourceTree = "<group>"; };
+		87ABE27A227F6A8600F53688 /* PlannedTrips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlannedTrips.xcdatamodel; sourceTree = "<group>"; };
+		87ABE27C227F6B5500F53688 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				87ABE271227F271900F53688 /* PlannedTripsControllers.swift */,
 				87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */,
 				87ABE277227F458400F53688 /* AddWaypoint.swift */,
+				87ABE279227F6A8600F53688 /* PlannedTrips.xcdatamodeld */,
+				87ABE27C227F6B5500F53688 /* CoreDataStack.swift */,
 				87ABE273227F2A5F00F53688 /* AddTripControllers.swift */,
 				87ABE261227F25D500F53688 /* ViewController.swift */,
 				87ABE263227F25D500F53688 /* Main.storyboard */,
@@ -152,7 +158,9 @@
 				87ABE260227F25D500F53688 /* AppDelegate.swift in Sources */,
 				87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */,
 				87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */,
+				87ABE27B227F6A8600F53688 /* PlannedTrips.xcdatamodeld in Sources */,
 				87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */,
+				87ABE27D227F6B5500F53688 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87ABE279227F6A8600F53688 /* PlannedTrips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87ABE27A227F6A8600F53688 /* PlannedTrips.xcdatamodel */,
+			);
+			currentVersion = 87ABE27A227F6A8600F53688 /* PlannedTrips.xcdatamodel */;
+			path = PlannedTrips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 87ABE254227F25D500F53688 /* Project object */;
 }
