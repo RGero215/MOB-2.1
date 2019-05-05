@@ -20,6 +20,8 @@
 		87ABE27D227F6B5500F53688 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27C227F6B5500F53688 /* CoreDataStack.swift */; };
 		87ABE280227F6D5300F53688 /* Trips+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27E227F6D5300F53688 /* Trips+CoreDataClass.swift */; };
 		87ABE281227F6D5300F53688 /* Trips+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27F227F6D5300F53688 /* Trips+CoreDataProperties.swift */; };
+		87ABE283227F6F4E00F53688 /* PlannedTripsControllersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE282227F6F4E00F53688 /* PlannedTripsControllersDataSource.swift */; };
+		87ABE285227F71C700F53688 /* TripsFetchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE284227F71C700F53688 /* TripsFetchResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		87ABE27C227F6B5500F53688 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		87ABE27E227F6D5300F53688 /* Trips+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trips+CoreDataClass.swift"; sourceTree = "<group>"; };
 		87ABE27F227F6D5300F53688 /* Trips+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trips+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		87ABE282227F6F4E00F53688 /* PlannedTripsControllersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTripsControllersDataSource.swift; sourceTree = "<group>"; };
+		87ABE284227F71C700F53688 /* TripsFetchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsFetchResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			children = (
 				87ABE25F227F25D500F53688 /* AppDelegate.swift */,
 				87ABE271227F271900F53688 /* PlannedTripsControllers.swift */,
+				87ABE282227F6F4E00F53688 /* PlannedTripsControllersDataSource.swift */,
+				87ABE284227F71C700F53688 /* TripsFetchResultController.swift */,
 				87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */,
 				87ABE277227F458400F53688 /* AddWaypoint.swift */,
 				87ABE279227F6A8600F53688 /* PlannedTrips.xcdatamodeld */,
@@ -159,11 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ABE285227F71C700F53688 /* TripsFetchResultController.swift in Sources */,
 				87ABE278227F458400F53688 /* AddWaypoint.swift in Sources */,
 				87ABE262227F25D500F53688 /* ViewController.swift in Sources */,
 				87ABE260227F25D500F53688 /* AppDelegate.swift in Sources */,
 				87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */,
 				87ABE280227F6D5300F53688 /* Trips+CoreDataClass.swift in Sources */,
+				87ABE283227F6F4E00F53688 /* PlannedTripsControllersDataSource.swift in Sources */,
 				87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */,
 				87ABE27B227F6A8600F53688 /* PlannedTrips.xcdatamodeld in Sources */,
 				87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */,

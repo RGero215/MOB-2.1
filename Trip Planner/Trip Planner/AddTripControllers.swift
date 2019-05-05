@@ -8,8 +8,12 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class AddTripControllers: UIViewController {
+    
+    
+    var managedObjectContext: NSManagedObjectContext!
     
     let tripNameLabel: UILabel = {
         let label = UILabel()
@@ -49,7 +53,11 @@ class AddTripControllers: UIViewController {
     }
     
     @objc func handleAdd(){
-        
+        guard let trip = tripNameTextField.text, !trip.isEmpty else {return}
+        let trips = NSEntityDescription.insertNewObject(forEntityName: "Trips", into: managedObjectContext) as! Trips
+        trips.trip = trip
+        managedObjectContext?.saveChanges()
+        navigationController?.popViewController(animated: true)
     }
     
     func setupView() {

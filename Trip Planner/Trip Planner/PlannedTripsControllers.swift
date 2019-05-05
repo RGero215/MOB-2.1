@@ -8,10 +8,16 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class PlannedTripsController: UITableViewController {
     
-    var trip = "San Francisco"
+    let managedObjectContext = CoreDataStack().managedObjectContext
+    
+    lazy var dataSource: PlannedTripsControllersDataSource = {
+        return PlannedTripsControllersDataSource(tableView: self.tableView, managedObjectContext: self.managedObjectContext)
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,31 +25,20 @@ class PlannedTripsController: UITableViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAdd))
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellId")
         tableView.delegate = self
-        tableView.dataSource = self
+        tableView.dataSource = dataSource
     }
     
     @objc func handleAdd(){
         let vc = AddTripControllers()
+        vc.managedObjectContext = self.managedObjectContext
         self.navigationController?.pushViewController(vc, animated: true)
-    }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellId", for: indexPath)
-        cell.textLabel?.text = "Trip to \(trip)"
-        return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let noWaypointsControllers = NoWaypointsControllers()
+        let trip = dataSource.object(at: indexPath)
         noWaypointsControllers.trip = trip
+        noWaypointsControllers.managedObjectContext = self.managedObjectContext
         self.navigationController?.pushViewController(noWaypointsControllers, animated: true)
     }
 }

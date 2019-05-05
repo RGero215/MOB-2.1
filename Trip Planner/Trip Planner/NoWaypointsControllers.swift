@@ -8,10 +8,12 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class NoWaypointsControllers: UIViewController {
     
-    var trip: String?
+    var trip: Trips?
+    var managedObjectContext: NSManagedObjectContext?
     
     let titleLabel: UILabel = {
         let label = UILabel()
@@ -38,7 +40,7 @@ class NoWaypointsControllers: UIViewController {
         view.backgroundColor = .white
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Planned Trips", style: .plain, target: self, action: #selector(handleBack))
         guard let trip = self.trip else {return}
-        navigationItem.title = "Your Trip: \(trip)"
+        navigationItem.title = "Your Trip: \(trip.trip)"
         setupView()
         
     }
