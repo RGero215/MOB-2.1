@@ -44,7 +44,8 @@ class NoWaypointsControllers: UIViewController {
     }
     
     @objc func handleGetStarted(){
-        
+        let addWaypoint = AddWaypoint()
+        self.navigationController?.pushViewController(addWaypoint, animated: true)
     }
     
     @objc func handleBack(){

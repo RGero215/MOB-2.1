@@ -15,6 +15,7 @@
 		87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE271227F271900F53688 /* PlannedTripsControllers.swift */; };
 		87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE273227F2A5F00F53688 /* AddTripControllers.swift */; };
 		87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */; };
+		87ABE278227F458400F53688 /* AddWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE277227F458400F53688 /* AddWaypoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		87ABE271227F271900F53688 /* PlannedTripsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTripsControllers.swift; sourceTree = "<group>"; };
 		87ABE273227F2A5F00F53688 /* AddTripControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripControllers.swift; sourceTree = "<group>"; };
 		87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWaypointsControllers.swift; sourceTree = "<group>"; };
+		87ABE277227F458400F53688 /* AddWaypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaypoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				87ABE25F227F25D500F53688 /* AppDelegate.swift */,
 				87ABE271227F271900F53688 /* PlannedTripsControllers.swift */,
 				87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */,
+				87ABE277227F458400F53688 /* AddWaypoint.swift */,
 				87ABE273227F2A5F00F53688 /* AddTripControllers.swift */,
 				87ABE261227F25D500F53688 /* ViewController.swift */,
 				87ABE263227F25D500F53688 /* Main.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ABE278227F458400F53688 /* AddWaypoint.swift in Sources */,
 				87ABE262227F25D500F53688 /* ViewController.swift in Sources */,
 				87ABE260227F25D500F53688 /* AppDelegate.swift in Sources */,
 				87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */,
