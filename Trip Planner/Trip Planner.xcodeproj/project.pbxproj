@@ -18,6 +18,8 @@
 		87ABE278227F458400F53688 /* AddWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE277227F458400F53688 /* AddWaypoint.swift */; };
 		87ABE27B227F6A8600F53688 /* PlannedTrips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE279227F6A8600F53688 /* PlannedTrips.xcdatamodeld */; };
 		87ABE27D227F6B5500F53688 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27C227F6B5500F53688 /* CoreDataStack.swift */; };
+		87ABE280227F6D5300F53688 /* Trips+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27E227F6D5300F53688 /* Trips+CoreDataClass.swift */; };
+		87ABE281227F6D5300F53688 /* Trips+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE27F227F6D5300F53688 /* Trips+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		87ABE277227F458400F53688 /* AddWaypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaypoint.swift; sourceTree = "<group>"; };
 		87ABE27A227F6A8600F53688 /* PlannedTrips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlannedTrips.xcdatamodel; sourceTree = "<group>"; };
 		87ABE27C227F6B5500F53688 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		87ABE27E227F6D5300F53688 /* Trips+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trips+CoreDataClass.swift"; sourceTree = "<group>"; };
+		87ABE27F227F6D5300F53688 /* Trips+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trips+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				87ABE266227F25D800F53688 /* Assets.xcassets */,
 				87ABE268227F25D800F53688 /* LaunchScreen.storyboard */,
 				87ABE26B227F25D800F53688 /* Info.plist */,
+				87ABE27E227F6D5300F53688 /* Trips+CoreDataClass.swift */,
+				87ABE27F227F6D5300F53688 /* Trips+CoreDataProperties.swift */,
 			);
 			path = "Trip Planner";
 			sourceTree = "<group>";
@@ -157,9 +163,11 @@
 				87ABE262227F25D500F53688 /* ViewController.swift in Sources */,
 				87ABE260227F25D500F53688 /* AppDelegate.swift in Sources */,
 				87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */,
+				87ABE280227F6D5300F53688 /* Trips+CoreDataClass.swift in Sources */,
 				87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */,
 				87ABE27B227F6A8600F53688 /* PlannedTrips.xcdatamodeld in Sources */,
 				87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */,
+				87ABE281227F6D5300F53688 /* Trips+CoreDataProperties.swift in Sources */,
 				87ABE27D227F6B5500F53688 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
