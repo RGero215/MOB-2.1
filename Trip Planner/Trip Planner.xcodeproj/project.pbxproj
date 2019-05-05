@@ -14,6 +14,7 @@
 		87ABE26A227F25D800F53688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87ABE268227F25D800F53688 /* LaunchScreen.storyboard */; };
 		87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE271227F271900F53688 /* PlannedTripsControllers.swift */; };
 		87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE273227F2A5F00F53688 /* AddTripControllers.swift */; };
+		87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		87ABE26B227F25D800F53688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87ABE271227F271900F53688 /* PlannedTripsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTripsControllers.swift; sourceTree = "<group>"; };
 		87ABE273227F2A5F00F53688 /* AddTripControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripControllers.swift; sourceTree = "<group>"; };
+		87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWaypointsControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				87ABE25F227F25D500F53688 /* AppDelegate.swift */,
 				87ABE271227F271900F53688 /* PlannedTripsControllers.swift */,
+				87ABE275227F3D7F00F53688 /* NoWaypointsControllers.swift */,
 				87ABE273227F2A5F00F53688 /* AddTripControllers.swift */,
 				87ABE261227F25D500F53688 /* ViewController.swift */,
 				87ABE263227F25D500F53688 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				87ABE262227F25D500F53688 /* ViewController.swift in Sources */,
 				87ABE260227F25D500F53688 /* AppDelegate.swift in Sources */,
+				87ABE276227F3D7F00F53688 /* NoWaypointsControllers.swift in Sources */,
 				87ABE274227F2A5F00F53688 /* AddTripControllers.swift in Sources */,
 				87ABE272227F271900F53688 /* PlannedTripsControllers.swift in Sources */,
 			);

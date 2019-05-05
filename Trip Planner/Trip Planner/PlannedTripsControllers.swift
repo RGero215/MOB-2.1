@@ -11,6 +11,8 @@ import UIKit
 
 class PlannedTripsController: UITableViewController {
     
+    var trip = "San Francisco"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Planned Trips"
@@ -35,7 +37,13 @@ class PlannedTripsController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellId", for: indexPath)
-        cell.textLabel?.text = "Trip to San Francisco"
+        cell.textLabel?.text = "Trip to \(trip)"
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let noWaypointsControllers = NoWaypointsControllers()
+        noWaypointsControllers.trip = trip
+        self.navigationController?.pushViewController(noWaypointsControllers, animated: true)
     }
 }
