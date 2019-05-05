@@ -16,14 +16,17 @@ class PlannedTripsController: UITableViewController {
         navigationItem.title = "Planned Trips"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(handleAdd))
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellId")
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     @objc func handleAdd(){
-        
+        let vc = AddTripControllers()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
