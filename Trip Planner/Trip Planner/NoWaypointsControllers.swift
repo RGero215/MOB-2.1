@@ -38,21 +38,30 @@ class NoWaypointsControllers: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Planned Trips", style: .plain, target: self, action: #selector(handleBack))
+        let backButton = UIBarButtonItem()
+        backButton.title = "Planned Trips"
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         guard let trip = self.trip else {return}
         navigationItem.title = "Your Trip: \(trip.trip)"
         setupView()
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        guard let trip = self.trip else {return}
+        if trip.hasWaypoint{
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
     @objc func handleGetStarted(){
         let addWaypoint = AddWaypoint()
+        addWaypoint.trip = trip
+        addWaypoint.managedObjectContext = self.managedObjectContext
         self.navigationController?.pushViewController(addWaypoint, animated: true)
     }
     
-    @objc func handleBack(){
-        self.navigationController?.popViewController(animated: true)
-    }
     
     func setupView() {
         noWaypointStackView = UIStackView(arrangedSubviews: [titleLabel, getStarted])

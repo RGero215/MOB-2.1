@@ -3,8 +3,14 @@
     <entity name="Trips" representedClassName=".Trips" syncable="YES">
         <attribute name="hasWaypoint" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="trip" attributeType="String" syncable="YES"/>
+        <relationship name="waypoint" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Waypoints" inverseName="trip" inverseEntity="Waypoints" syncable="YES"/>
+    </entity>
+    <entity name="Waypoints" representedClassName=".Waypoints" syncable="YES">
+        <attribute name="waypoint" attributeType="String" syncable="YES"/>
+        <relationship name="trip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Trips" inverseName="waypoint" inverseEntity="Trips" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Trips" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="Trips" positionX="-36" positionY="9" width="128" height="88"/>
+        <element name="Waypoints" positionX="162.93359375" positionY="16.71875" width="128" height="73"/>
     </elements>
 </model>

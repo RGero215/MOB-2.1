@@ -12,6 +12,9 @@ import CoreData
 
 class PlannedTripsController: UITableViewController {
     
+    var userDefaults = Defaults()
+    var token = "2501u50934u016"
+    
     let managedObjectContext = CoreDataStack().managedObjectContext
     
     lazy var dataSource: PlannedTripsControllersDataSource = {
@@ -26,6 +29,18 @@ class PlannedTripsController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellId")
         tableView.delegate = self
         tableView.dataSource = dataSource
+        
+        userDefaults.saveToken(token)
+        guard let getToken = userDefaults.getToken().token else {return}
+        
+        print("""
+            
+            
+            Getting Token: \(getToken)
+            
+            
+            """)
+        
     }
     
     @objc func handleAdd(){
@@ -36,9 +51,17 @@ class PlannedTripsController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let noWaypointsControllers = NoWaypointsControllers()
+        let waypointsControllers = WaypointsControllers()
         let trip = dataSource.object(at: indexPath)
-        noWaypointsControllers.trip = trip
-        noWaypointsControllers.managedObjectContext = self.managedObjectContext
-        self.navigationController?.pushViewController(noWaypointsControllers, animated: true)
+        if !trip.hasWaypoint {
+            noWaypointsControllers.trip = trip
+            noWaypointsControllers.managedObjectContext = self.managedObjectContext
+            self.navigationController?.pushViewController(noWaypointsControllers, animated: true)
+        } else {
+            waypointsControllers.trip = trip
+            waypointsControllers.managedObjectContext = self.managedObjectContext
+            self.navigationController?.pushViewController(waypointsControllers, animated: true)
+        }
+        
     }
 }
